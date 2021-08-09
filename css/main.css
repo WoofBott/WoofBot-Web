@@ -1,0 +1,448 @@
+body {
+    font-family: 'Poppins', sans-serif !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    background-color: var(--secondary-color);
+}
+.bgn {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #000000;
+}
+#add-discord-s {
+  background-color: var(--buttonone-color);
+  color: var(--textone-color);
+}
+#join-server-s {
+  background-color: var(--buttonone-color);
+  color: var(--textone-color);
+}
+#text-maincard-f {
+  color: var(--textone-color);
+}
+#text-maincard-s {
+  color: var(--textone-color);
+}
+#text-maincard-t {
+  color: var(--textone-color);
+}
+#f-header-card {
+  color: var(--textone-color);
+  background-color: var(--cardheader-color);
+}
+#s-header-card {
+  color: var(--textone-color);
+  background-color: var(--cardheader-color)
+}
+#t-header-card {
+  color: var(--textone-color);
+  background-color: var(--cardheader-color);
+}
+#f-main-card {
+  background-color: var(--cardmain-color);
+}
+#s-main-card {
+  background-color: var(--cardmain-color);
+}
+#t-main-card {
+  background-color: var(--cardmain-color);
+}
+#logo-discord {
+  fill: var(--secondary-color);
+}
+#add-discord {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+#foot-er {
+  background-color: var(--primary-color);
+}
+#midcubo {
+  background-color: var(--primary-color);
+}
+#upnav {
+  background-color: var(--primary-color);
+}
+#icon {
+  height: 35px;
+  width: 45px;
+  cursor: pointer;
+}
+nav ul {
+  flex: 1;
+  text-align: left;
+}
+:root {
+  --primary-color: #ffffff;
+  --secondary-color: #E9C070;
+  --cardmain-color: #ffffff;
+  --cardheader-color: #f5f5f5;
+  --buttonone-color: #ffffff;
+  --textone-color: #757575;
+}
+.dark-theme {
+  --primary-color: #2e2e2e;
+  --secondary-color: #575757;
+  --cardmain-color: #575757;
+  --cardheader-color: #525252;
+  --buttonone-color: #2e2e2e;
+  --textone-color: #ffffff;
+}
+.htext {
+color: #ffffff;
+font-weight: inherit;
+line-height: 1.2;
+}
+.ltext {
+    color: rgb(255, 255, 255);
+}
+.wh {
+    color: #ffffff;
+    font-weight: 700;
+    padding-top: 30px;
+}
+.Hbot {
+    color: #E9C070 !important;
+}
+.Hbot:hover {
+    font-size: 30px;
+    text-shadow: #888888;
+}
+.textt {
+    color: #ffffff;
+}
+.card {
+    border: 1px solid #E9C070;
+}
+.card:hover {
+     border: 3px solid #757575;
+}
+.cardds{
+margin-top: 30px !important;
+padding: 60px 50px !important;
+}
+.bgseconde {
+    padding-bottom: 150px;
+    background-color: var(--secondary-color);
+
+}
+.ttjoin {
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 51px;
+}
+span {
+    font-weight: 700;
+}
+.footer-social-icons {
+    width: 350px;
+    display: block;
+    margin: 0 auto;
+    align-items: center;
+}
+.social-icon {
+    color: rgb(0, 0, 0);
+}
+ul.social-icons {
+    margin-top: 10px;
+}
+.social-icons li {
+    vertical-align: top;
+    display: inline;
+    height: 100px;
+}
+.social-icons a {
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+.social-icon:hover {
+  color: white;
+  text-decoration: none;
+}
+.fa-facebook {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: var(--primary-color);
+}
+.fa-facebook:hover {
+    background-color: #3d5b99;
+}
+.fa-twitter {
+    padding:10px 12px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: var(--primary-color);
+}
+.fa-twitter:hover {
+    background-color: #00aced;
+}
+.fa-github {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: var(--primary-color);
+}
+.fa-github:hover {
+    background-color: #5a32a3;
+}
+.add_to_discord {
+    display: flex;
+    align-items: center;
+    background-color: blueviolet;
+    border-radius: 8px;
+    border: 0;
+    font-weight: 600;
+    font-size: 17px !important;
+    line-height: 21px !important;
+    color: rgb(255, 255, 255);
+    padding: 27px;
+    height: 58px;
+    outline: none;
+}
+.add_to_discord svg {
+    padding-right: 20px;
+    box-sizing: unset;
+}
+.add_to_discord:hover {
+    background-color: rgb(152, 67, 233);
+    text-decoration: none;
+  }
+  
+.commandstitle {
+    color: #ffffff;
+}
+.commandssub {
+    color: rgb(255, 255, 255);
+}
+.searchbox {
+    background-color: #ffffff;
+    padding: 15px 27px;
+    font-size: 20px;
+    color: rgb(247, 247, 247);
+    border: 3px solid #b1afaf;
+    border-radius: 8px;
+    width: 40%;
+}
+.border {
+    width: 65%;
+    height: 2px;
+    background: rgb(226, 133, 133);
+    margin-left: 17.5%;
+}
+.collapsible {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    padding: 18px;
+    width: 50%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 23px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  .collapsible span {
+    font-size: 14px;
+    color: rgb(97, 97, 97);
+}
+.collapsible:after {
+    content: '\002B';
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\2212";
+  }
+  .content {
+    padding: 0 18px;
+    width: 50%;
+    margin-left: 25%;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+    background-color: #e2e2e2;
+    color: #0049c7;
+    text-align: left;
+    display: none;
+  }
+  .content h4 {
+    margin-top: 12px;
+    font-size: 20px;
+    font-family: 'Cairo';
+  }
+
+  .card{
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    max-width: 360px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    border-radius: 2rem;
+    box-shadow: 0px 1rem 1.5rem rgba(95, 95, 95, 0.048);
+  }
+  
+  .card .banner{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 11rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    box-sizing: border-box;
+  }
+  .card .banner img{
+    background-color: rgb(17, 0, 255);
+    width: 8rem;
+    height: 8rem;
+    box-shadow: 0 0.5rem 1rem rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    transform: translateY(50%);
+    transition: transform 200ms cubic-bezier(0.18, 0.89, 0.32, 1.28);
+  }
+  
+  .card .banner img:hover{
+    transform: translateY(50%) scale(1.3);
+  }
+  
+  .card h2.name{
+    text-align: center;
+    padding: 0 2rem 0.5rem;
+    margin: 0;
+  }
+  
+  .card .title{
+    color: #a0a0a0;
+    font-size: 0.85rem;
+    text-align: center;
+    padding: 0 2rem 1.2rem;
+  }
+  
+  .card .actions{
+    padding: 0 2rem 1.2rem;
+    display: flex;
+    flex-direction: column;
+    order: 99;
+  }
+  
+  .card .actions .follow-info{
+    padding: 0 0 1rem;
+    display: flex;
+  }
+  
+  .card .actions .follow-info h2{
+    text-align: center;
+    width: 50%;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  .card .actions .follow-info h2 a{
+    text-decoration: none;
+    padding: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.8rem;
+    transition: background-color 100ms ease-in-out;
+  }
+  
+  .card .actions .follow-info h2 a span{
+    color: #1c9eff;
+    font-weight: bold;
+    transform-origin: bottom;
+    transform: scaleY(1.3);
+    transition: color 100ms ease-in-out;
+  }
+  
+  .card .actions .follow-info h2 a small{
+    color: #afafaf;
+    font-size: 0.85rem;
+    font-weight: normal;
+  }
+  
+  .card .actions .follow-info h2 a:hover{
+    background-color: #f2f2f2;
+  }
+  
+  .card .actions .follow-info h2 a:hover span{
+    color: #007ad6;
+  }
+  
+  .card .actions .follow-btn button{
+    color: inherit;
+    font: inherit;
+    font-weight: bold;
+    background-color: #ffd01a;
+    width: 100%;
+    border: none;
+    padding: 1rem;
+    outline: none;
+    box-sizing: border-box;
+    border-radius: 1.5rem/50%;
+    transition: background-color 100ms ease-in-out, transform 200ms cubic-bezier(0.18, 0.89, 0.32, 1.28);
+  }
+  
+  .card .actions .follow-btn button:hover{
+    background-color: #efb10a;
+    transform: scale(1.1);
+  }
+  
+  .card .actions .follow-btn button:active{
+    background-color: #e8a200;
+    transform: scale(1);
+  }
+
+  .licetitle {
+    color: #ffff;
+    margin: 5px;
+    font-family: monospace;
+  }
+
+  .textlice {
+    box-sizing: border-box;
+    color:  #ffff;
+    margin: 3px;
+    letter-spacing: 1px;
+  }
+
+.mastfoot.mb-auto{
+    padding-bottom: 40px;
+    padding: 20px;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    background-color: #212529;
+    color: white;
+}
+
+
+::-webkit-scrollbar {
+	width: 12.2px;
+}
+
+::-webkit-scrollbar-track {
+	box-shadow: inset 0 0 1000px #38383b; 
+}
+
+::-webkit-scrollbar-thumb {
+	background: #202225; 
+	border-radius: 4px;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(84, 81, 81); 
+  }
