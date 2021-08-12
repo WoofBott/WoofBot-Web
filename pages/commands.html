@@ -12,9 +12,9 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg" style="background-color: white;">
+    <nav class="navbar navbar-expand-lg" id="upnav">
         <div class="container-fluid container">
-            <a class="navbar-brand" href="/">
+            <a class="navbar-brand" href="../index.html">
                 <img src="../assets/bot.png" alt="" width="50" height="50" class="rounded-circle"> &nbsp;
                 <span style="color: rgb(110, 116, 124);">Woof</span>
             </a>
@@ -51,11 +51,12 @@
                                 <hr class="dropdown-divider">
                             </li>
                             <li><a class="dropdown-item text-muted font-weight-bold"
-                                    href="https://github.com/Hadi-Koubeissi" target="_blank">Official Github</a></li>
-                            <li><a class="dropdown-item text-muted font-weight-bold" href="">View
+                                    href="" target="_blank">Official Github</a></li>
+                            <li><a class="dropdown-item text-muted font-weight-bold" href="./doc.html">View
                                     Documentation</a></li>
                         </ul>
                     </li>
+                    <img src="../assets/Light-Mode-On.png" id="icon">
                 </ul>
                 <div class="d-flex ml-auto" id="headerlogin">
                     <li class="nav-item" style="list-style: none;">
@@ -70,7 +71,7 @@
     <div class="jumbotron text-center bg-transparent">
         <h1 class="commandstitle">Commands</h1>
         <p class="lead commandssub">View the commands for bot.</p>
-        <hr style="background-color: white">
+        <hr style="background-color: white;">
         <input id="myInput" type="text" class="searchbox" placeholder="Search">
         <br>
         <br>
@@ -85,221 +86,367 @@
             <br>
             <button type="button" class="collapsible">help<span> - Check the commands list</span></button>
             <div class="content">
-                <h4 style="color: #cccccc;">Category:</h4>
-                <p style="color: rgb(255, 255, 255);">General</p>
-                <h4 style="color: #cccccc;">Usage:</h4>
+                <h4 style="color: #707070;">Category:</h4>
+                <p style="color: #131313;">General</p>
+                <h4 style="color: #707070;">Usage:</h4>
                 <p>w?help</p>
-                <h4 style="color: #cccccc;">Examples:</h4>
+                <h4 style="color: #707070;">Examples:</h4>
                 <p>None</p>
             </div>
             <br>
             <br>
             <button type="button" class="collapsible">ban<span> - Ban a member</span></button>
             <div class="content">
-                <h4 style="color: #cccccc;">Category:</h4>
-                <p style="color: rgb(255, 255, 255);">Administration</p>
-                <h4 style="color: #cccccc;">Usage:</h4>
+                <h4 style="color: #707070;">Category:</h4>
+                <p style="color: #131313;">Administration</p>
+                <h4 style="color: #707070;">Usage:</h4>
                 <p>w?ban</p>
-                <h4 style="color: #cccccc;">Examples:</h4>
+                <h4 style="color: #707070;">Examples:</h4>
                 <p>w?ban {@member}</p>
             </div>
             <br>
             <br>
             <button type="button" class="collapsible">kick<span> - Kick a member</span></button>
             <div class="content">
-                <h4 style="color: #cccccc;">Category:</h4>
-                <p style="color: rgb(255, 255, 255);">Administration</p>
-                <h4 style="color: #cccccc;">Usage:</h4>
+                <h4 style="color: #707070;">Category:</h4>
+                <p style="color: #131313;">Administration</p>
+                <h4 style="color: #707070;">Usage:</h4>
                 <p>w?kick</p>
-                <h4 style="color: #cccccc;">Examples:</h4>
+                <h4 style="color: #707070;">Examples:</h4>
                 <p>w?kick {@member}</p>
             </div>
             <br>
             <br>
             <button type="button" class="collapsible">snipe<span> - See lastest message deleted</span></button>
             <div class="content">
-                <h4 style="color: #cccccc;">Category:</h4>
-                <p style="color: rgb(255, 255, 255);">Administration</p>
-                <h4 style="color: #cccccc;">Usage:</h4>
+                <h4 style="color: #707070;">Category:</h4>
+                <p style="color: #131313;">Administration</p>
+                <h4 style="color: #707070;">Usage:</h4>
                 <p>w?snipe</p>
-                <h4 style="color: #cccccc;">Examples:</h4>
+                <h4 style="color: #707070;">Examples:</h4>
                 <p>None</p>
             </div>
             <br>
             <br>
             <button type="button" class="collapsible">purge<span> - Delete messages</span></button>
             <div class="content">
-                <h4 style="color: #cccccc;">Category:</h4>
-                <p style="color: rgb(255, 255, 255);">Administration</p>
-                <h4 style="color: #cccccc;">Usage:</h4>
+                <h4 style="color: #707070;">Category:</h4>
+                <p style="color: #131313;">Administration</p>
+                <h4 style="color: #707070;">Usage:</h4>
                 <p>w?purge</p>
-                <h4 style="color: #cccccc;">Examples:</h4>
+                <h4 style="color: #707070;">Examples:</h4>
                 <p>w?purge 50</p>
             </div>
             <br>
             <br>
             <button type="button" class="collapsible">botinfo<span> - See bot info</span></button>
             <div class="content">
-                <h4 style="color: #cccccc;">Category:</h4>
-                <p style="color: rgb(255, 255, 255);">General</p>
-                <h4 style="color: #cccccc;">Usage:</h4>
+                <h4 style="color: #707070;">Category:</h4>
+                <p style="color: #131313;">General</p>
+                <h4 style="color: #707070;">Usage:</h4>
                 <p>w?botinfo</p>
-                <h4 style="color: #cccccc;">Examples:</h4>
+                <h4 style="color: #707070;">Examples:</h4>
                 <p>None</p>
             </div>
             <br>
             <br>
             <button type="button" class="collapsible">report<span> - Report a bot bug</span></button>
             <div class="content">
-                <h4 style="color: #cccccc;">Category:</h4>
-                <p style="color: rgb(255, 255, 255);">General</p>
-                <h4 style="color: #cccccc;">Usage:</h4>
+                <h4 style="color: #707070;">Category:</h4>
+                <p style="color: #131313;">General</p>
+                <h4 style="color: #707070;">Usage:</h4>
                 <p>w?report</p>
-                <h4 style="color: #cccccc;">Examples:</h4>
+                <h4 style="color: #707070;">Examples:</h4>
                 <p>w?ban {bug}</p>
             </div>
             <br>
             <br>
             <button type="button" class="collapsible">announce<span> - Make the bot say something</span></button>
             <div class="content">
-                <h4 style="color: #cccccc;">Category:</h4>
-                <p style="color: rgb(255, 255, 255);">General</p>
-                <h4 style="color: #cccccc;">Usage:</h4>
+                <h4 style="color: #707070;">Category:</h4>
+                <p style="color: #131313;">General</p>
+                <h4 style="color: #707070;">Usage:</h4>
                 <p>w?announce</p>
-                <h4 style="color: #cccccc;">Examples:</h4>
+                <h4 style="color: #707070;">Examples:</h4>
                 <p>w?announce {text}</p>
             </div>
             <br>
             <br>
             <button type="button" class="collapsible">membercount<span> - See how many member your server has</span></button>
             <div class="content">
-                <h4 style="color: #cccccc;">Category:</h4>
-                <p style="color: rgb(255, 255, 255);">General</p>
-                <h4 style="color: #cccccc;">Usage:</h4>
+                <h4 style="color: #707070;">Category:</h4>
+                <p style="color: #131313;">General</p>
+                <h4 style="color: #707070;">Usage:</h4>
                 <p>w?membercount</p>
-                <h4 style="color: #cccccc;">Examples:</h4>
+                <h4 style="color: #707070;">Examples:</h4>
                 <p>None</p>
             </div>
             <br>
             <br>
             <button type="button" class="collapsible">slowmode<span> - Enable/Disable slowmode for the channel</span></button>
             <div class="content">
-                <h4 style="color: #cccccc;">Category:</h4>
-                <p style="color: rgb(255, 255, 255);">Administration</p>
-                <h4 style="color: #cccccc;">Usage:</h4>
+                <h4 style="color: #707070;">Category:</h4>
+                <p style="color: #131313;">Administration</p>
+                <h4 style="color: #707070;">Usage:</h4>
                 <p>w?slowmode</p>
-                <h4 style="color: #cccccc;">Examples:</h4>
+                <h4 style="color: #707070;">Examples:</h4>
                 <p>w?slowmode {time}</p>
             </div>
             <br>
             <br>
             <button type="button" class="collapsible">timer<span> - Make a reminder</span></button>
             <div class="content">
-                <h4 style="color: #cccccc;">Category:</h4>
-                <p style="color: rgb(255, 255, 255);">General</p>
-                <h4 style="color: #cccccc;">Usage:</h4>
+                <h4 style="color: #707070;">Category:</h4>
+                <p style="color: #131313;">General</p>
+                <h4 style="color: #707070;">Usage:</h4>
                 <p>w?timer</p>
-                <h4 style="color: #cccccc;">Examples:</h4>
+                <h4 style="color: #707070;">Examples:</h4>
                 <p>w?timer {time} {text}</p>
             </div>
             <br>
             <br>
             <button type="button" class="collapsible">poll<span> - Make a poll</span></button>
             <div class="content">
-                <h4 style="color: #cccccc;">Category:</h4>
-                <p style="color: rgb(255, 255, 255);">General</p>
-                <h4 style="color: #cccccc;">Usage:</h4>
+                <h4 style="color: #707070;">Category:</h4>
+                <p style="color: #131313;">General</p>
+                <h4 style="color: #707070;">Usage:</h4>
                 <p>w?poll</p>
-                <h4 style="color: #cccccc;">Examples:</h4>
+                <h4 style="color: #707070;">Examples:</h4>
                 <p>w?poll {text}</p>
             </div>
             <br>
             <br>
             <button type="button" class="collapsible">google<span> - Search from google</span></button>
             <div class="content">
-                <h4 style="color: #cccccc;">Category:</h4>
-                <p style="color: rgb(255, 255, 255);">General</p>
-                <h4 style="color: #cccccc;">Usage:</h4>
+                <h4 style="color: #707070;">Category:</h4>
+                <p style="color: #131313;">General</p>
+                <h4 style="color: #707070;">Usage:</h4>
                 <p>w?google</p>
-                <h4 style="color: #cccccc;">Examples:</h4>
+                <h4 style="color: #707070;">Examples:</h4>
                 <p>w?google {text}</p>
             </div>
             <br>
             <br>
             <button type="button" class="collapsible">youtube<span> - Search from youtube</span></button>
             <div class="content">
-                <h4 style="color: #cccccc;">Category:</h4>
-                <p style="color: rgb(255, 255, 255);">General</p>
-                <h4 style="color: #cccccc;">Usage:</h4>
+                <h4 style="color: #707070;">Category:</h4>
+                <p style="color: #131313;">General</p>
+                <h4 style="color: #707070;">Usage:</h4>
                 <p>w?youtube</p>
-                <h4 style="color: #cccccc;">Examples:</h4>
+                <h4 style="color: #707070;">Examples:</h4>
                 <p>w?youtube {text}</p>
             </div>
             <br>
             <br>
             <button type="button" class="collapsible">warn<span> - Warn someone</span></button>
             <div class="content">
-                <h4 style="color: #cccccc;">Category:</h4>
-                <p style="color: rgb(255, 255, 255);">Administration</p>
-                <h4 style="color: #cccccc;">Usage:</h4>
+                <h4 style="color: #707070;">Category:</h4>
+                <p style="color: #131313;">Administration</p>
+                <h4 style="color: #707070;">Usage:</h4>
                 <p>w?warn</p>
-                <h4 style="color: #cccccc;">Examples:</h4>
+                <h4 style="color: #707070;">Examples:</h4>
                 <p>w?warn {@member} {reason}</p>
             </div>
             <br>
             <br>
             <button type="button" class="collapsible">8ball<span> - Ask something to the bot</span></button>
             <div class="content">
-                <h4 style="color: #cccccc;">Category:</h4>
-                <p style="color: rgb(255, 255, 255);">General</p>
-                <h4 style="color: #cccccc;">Usage:</h4>
+                <h4 style="color: #707070;">Category:</h4>
+                <p style="color: #131313;">General</p>
+                <h4 style="color: #707070;">Usage:</h4>
                 <p>w?8ball</p>
-                <h4 style="color: #cccccc;">Examples:</h4>
+                <h4 style="color: #707070;">Examples:</h4>
                 <p>w?8ball {question}</p>
             </div>
             <br>
             <br>
             <button type="button" class="collapsible">whois<span> - Who are you?</span></button>
             <div class="content">
-                <h4 style="color: #cccccc;">Category:</h4>
-                <p style="color: rgb(255, 255, 255);">General</p>
-                <h4 style="color: #cccccc;">Usage:</h4>
+                <h4 style="color: #707070;">Category:</h4>
+                <p style="color: #131313;">General</p>
+                <h4 style="color: #707070;">Usage:</h4>
                 <p>w?whois</p>
-                <h4 style="color: #cccccc;">Examples:</h4>
+                <h4 style="color: #707070;">Examples:</h4>
                 <p>w?whois {@member}</p>
             </div>
             <br>
             <br>
             <button type="button" class="collapsible">serverinfo<span> - Your server info</span></button>
             <div class="content">
-                <h4 style="color: #cccccc;">Category:</h4>
-                <p style="color: rgb(255, 255, 255);">General</p>
-                <h4 style="color: #cccccc;">Usage:</h4>
+                <h4 style="color: #707070;">Category:</h4>
+                <p style="color: #131313;">General</p>
+                <h4 style="color: #707070;">Usage:</h4>
                 <p>w?serverinfo</p>
-                <h4 style="color: #cccccc;">Examples:</h4>
+                <h4 style="color: #707070;">Examples:</h4>
                 <p>None</p>
             </div>
             <br>
             <br>
             <button type="button" class="collapsible">avatar<span> - See someones avatar</span></button>
             <div class="content">
-                <h4 style="color: #cccccc;">Category:</h4>
-                <p style="color: rgb(255, 255, 255);">General</p>
-                <h4 style="color: #cccccc;">Usage:</h4>
+                <h4 style="color: #707070;">Category:</h4>
+                <p style="color: #131313;">General</p>
+                <h4 style="color: #707070;">Usage:</h4>
                 <p>w?avatar</p>
-                <h4 style="color: #cccccc;">Examples:</h4>
+                <h4 style="color: #707070;">Examples:</h4>
                 <p>w?avatar {@member}</p>
             </div>
+            <br>
+            <br>
+            <button type="button" class="collapsible">vote<span> - Vote for me at Top.gg</span></button>
+            <div class="content">
+                <h4 style="color: #707070;">Category:</h4>
+                <p style="color: #131313;">General</p>
+                <h4 style="color: #707070;">Usage:</h4>
+                <p>w?vote</p>
+                <h4 style="color: #707070;">Examples:</h4>
+                <p>None</p>
+            </div>
+            <br>
+            <br>
+            <button type="button" class="collapsible">servers<span> - See how many servers woof is on</span></button>
+            <div class="content">
+                <h4 style="color: #707070;">Category:</h4>
+                <p style="color: #131313;">General</p>
+                <h4 style="color: #707070;">Usage:</h4>
+                <p>w?servers</p>
+                <h4 style="color: #707070;">Examples:</h4>
+                <p>None</p>
+            </div>
+            <br>
+            <br>
+            <button type="button" class="collapsible">support<span> - Woof's support server | </span><span style="color: red;">Currently not working</span></button>
+            <div class="content">
+                <h4 style="color: #707070;">Category:</h4>
+                <p style="color: #131313;">General</p>
+                <h4 style="color: #707070;">Usage:</h4>
+                <p>w?servers</p>
+                <h4 style="color: #707070;">Examples:</h4>
+                <p>None</p>
+            </div>
+            <br>
+            <br>
+            <button type="button" class="collapsible">invite<span> - Invite link of woof</span></button>
+            <div class="content">
+                <h4 style="color: #707070;">Category:</h4>
+                <p style="color: #131313;">General</p>
+                <h4 style="color: #707070;">Usage:</h4>
+                <p>w?invite</p>
+                <h4 style="color: #707070;">Examples:</h4>
+                <p>None</p>
+            </div>
+            <br>
+            <br>
+            <button type="button" class="collapsible">slap<span> - Did you just slapped me?</span></button>
+            <div class="content">
+                <h4 style="color: #707070;">Category:</h4>
+                <p style="color: #131313;">General</p>
+                <h4 style="color: #707070;">Usage:</h4>
+                <p>w?slap</p>
+                <h4 style="color: #707070;">Examples:</h4>
+                <p>w?slap {@member}</p>
+            </div>
+            <br>
+            <br>
+            <button type="button" class="collapsible">hack<span> - Hacker hehe</span></button>
+            <div class="content">
+                <h4 style="color: #707070;">Category:</h4>
+                <p style="color: #131313;">General</p>
+                <h4 style="color: #707070;">Usage:</h4>
+                <p>w?hack</p>
+                <h4 style="color: #707070;">Examples:</h4>
+                <p>w?hack {@member}</p>
+            </div>
+            <br>
+            <br>
+            <button type="button" class="collapsible">hug<span> - I need a hug </span><img src="https://emoji.gg/assets/emoji/3515-heart.png" width="20" height="20" alt="heart"></button>
+            <div class="content">
+                <h4 style="color: #707070;">Category:</h4>
+                <p style="color: #131313;">General</p>
+                <h4 style="color: #707070;">Usage:</h4>
+                <p>w?servers</p>
+                <h4 style="color: #707070;">Examples:</h4>
+                <p>None</p>
+            </div>
+            <br>
+            <br>
+            <button type="button" class="collapsible">topic<span> - Just random topics</span></button>
+            <div class="content">
+                <h4 style="color: #707070;">Category:</h4>
+                <p style="color: #131313;">General</p>
+                <h4 style="color: #707070;">Usage:</h4>
+                <p>w?topic</p>
+                <h4 style="color: #707070;">Examples:</h4>
+                <p>None</p>
+            </div>
+            <br>
+            <br>
+            <button type="button" class="collapsible">meme<span> - Memes</span><img src="https://emoji.gg/assets/emoji/3987-starege.png" width="20px" height="20px" alt="Starege"></button>
+            <div class="content">
+                <h4 style="color: #707070;">Category:</h4>
+                <p style="color: #131313;">General</p>
+                <h4 style="color: #707070;">Usage:</h4>
+                <p>w?invite</p>
+                <h4 style="color: #707070;">Examples:</h4>
+                <p>None</p>
+            </div>
+            <br>
+            <br>
+            <button type="button" class="collapsible">kill<span> - Kill someone. Wait, what?</span></button>
+            <div class="content">
+                <h4 style="color: #707070;">Category:</h4>
+                <p style="color: #131313;">General</p>
+                <h4 style="color: #707070;">Usage:</h4>
+                <p>w?kill</p>
+                <h4 style="color: #707070;">Examples:</h4>
+                <p>w?kill {@member}</p>
+            </div>
+            <br>
+            <br>
+            <button type="button" class="collapsible">dog<span> - They are cute but no cuter than me</span></button>
+            <div class="content">
+                <h4 style="color: #707070;">Category:</h4>
+                <p style="color: #131313;">General</p>
+                <h4 style="color: #707070;">Usage:</h4>
+                <p>w?dog</p>
+                <h4 style="color: #707070;">Examples:</h4>
+                <p>None</p>
+            </div>
+            <br>
+            <br>
+            <button type="button" class="collapsible">nameme<span> - Hmm your new name is...</span></button>
+            <div class="content">
+                <h4 style="color: #707070;">Category:</h4>
+                <p style="color: #131313;">General</p>
+                <h4 style="color: #707070;">Usage:</h4>
+                <p>w?nameme</p>
+                <h4 style="color: #707070;">Examples:</h4>
+                <p>None</p>
+            </div>
+            <br>
+            <br>
+            <button type="button" class="collapsible" style="background-color: rgb(114, 59, 22); color: white;">poop<span style="color: rgb(199, 199, 199);"> - Really, WHY!</span></button>
+            <div class="content" style="background-color: rgb(99, 51, 19);">
+                <h4 style="color: #ffffff;">Category:</h4>
+                <p><img src="https://emoji.gg/assets/emoji/4044-poop-laughs.png" width="20px" height="20px" alt="poop_laughs"><img src="https://emoji.gg/assets/emoji/4044-poop-laughs.png" width="20px" height="20px" alt="poop_laughs"><img src="https://emoji.gg/assets/emoji/4044-poop-laughs.png" width="20px" height="20px" alt="poop_laughs"><img src="https://emoji.gg/assets/emoji/4044-poop-laughs.png" width="20px" height="20px" alt="poop_laughs"></p>
+                <h4 style="color: #ffffff;">Usage:</h4>
+                <p><img src="https://emoji.gg/assets/emoji/4044-poop-laughs.png" width="20px" height="20px" alt="poop_laughs"><img src="https://emoji.gg/assets/emoji/4044-poop-laughs.png" width="20px" height="20px" alt="poop_laughs"><img src="https://emoji.gg/assets/emoji/4044-poop-laughs.png" width="20px" height="20px" alt="poop_laughs"><img src="https://emoji.gg/assets/emoji/4044-poop-laughs.png" width="20px" height="20px" alt="poop_laughs"></p>
+                <h4 style="color: #ffffff;">Examples:</h4>
+                <p><img src="https://emoji.gg/assets/emoji/4044-poop-laughs.png" width="20px" height="20px" alt="poop_laughs"><img src="https://emoji.gg/assets/emoji/4044-poop-laughs.png" width="20px" height="20px" alt="poop_laughs"><img src="https://emoji.gg/assets/emoji/4044-poop-laughs.png" width="20px" height="20px" alt="poop_laughs"><img src="https://emoji.gg/assets/emoji/4044-poop-laughs.png" width="20px" height="20px" alt="poop_laughs"></p>
+            </div>
+            <br>
+            <br>
+            <h5 style="color: white;">Commands: 32</h5>
         </div>
     </div>
     </div>
 
-    <footer class="mastfoot mb-auto" style="background-color: white;">
+    <footer class="mastfoot mb-auto" id="foot-er">
             <div class="container-fluid mb-auto">
                 <div class="row d-flex justify-content-center">
                     <div class="">
-                        <p style="font-size: 19px; padding: 0px; margin: 0px; color: rgb(110, 116, 124);"><a href="https://github.com/Hadi-Koubeissi"
-                                style="text-decoration: none; color: rgb(110, 116, 124);">Made by </a>Renai</br>WoofBot ©
+                        <p style="font-size: 19px; padding: 0px; margin: 0px; color: rgb(110, 116, 124);"><a href=""
+                                style="text-decoration: none; color: rgb(110, 116, 124);">Made by </a>Renai</br>WoofBott ©
                             2021. All
                             rights reserved.</br>[<a href="./license.html"><b>Terms Of Use</b></a>]</p>
                     </div>
@@ -313,6 +460,18 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="../js/main.js"></script>
+    <script>
+        var icon = document.getElementById("icon");
+  
+        icon.onclick = function(){
+          document.body.classList.toggle("dark-theme");
+          if(document.body.classList.contains("dark-theme")) {
+            icon.src="../assets/Dark-Mode-On.png";
+          }else {
+            icon.src="../assets/Light-Mode-On.png";
+          }
+        }
+      </script>
 </body>
 
 </html>
