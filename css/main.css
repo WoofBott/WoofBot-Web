@@ -9,6 +9,15 @@ body {
     background-color: rgb(255, 255, 255);
     border: 1px solid #000000;
 }
+#faq-button {
+  position: relative;
+  position: absolute;
+  top : 10px;
+  left: 10px;
+}
+#version-text1 {
+  color: var(--version-color);
+}
 #add-discord-s {
   background-color: var(--buttonone-color);
   color: var(--textone-color);
@@ -65,7 +74,7 @@ body {
 }
 #icon {
   height: 35px;
-  width: 45px;
+  width: 35px;
   cursor: pointer;
 }
 nav ul {
@@ -74,11 +83,12 @@ nav ul {
 }
 :root {
   --primary-color: #ffffff;
-  --secondary-color: #E9C070;
+  --secondary-color: #838383;
   --cardmain-color: #ffffff;
   --cardheader-color: #f5f5f5;
   --buttonone-color: #ffffff;
   --textone-color: #757575;
+  --version-color: #ffffff;
 }
 .dark-theme {
   --primary-color: #2e2e2e;
@@ -87,6 +97,7 @@ nav ul {
   --cardheader-color: #525252;
   --buttonone-color: #2e2e2e;
   --textone-color: #ffffff;
+  --version-color: #ffffff;
 }
 .htext {
 color: #ffffff;
@@ -102,7 +113,7 @@ line-height: 1.2;
     padding-top: 30px;
 }
 .Hbot {
-    color: #E9C070 !important;
+    color: #5c5c5c !important;
 }
 .Hbot:hover {
     font-size: 30px;
@@ -112,7 +123,7 @@ line-height: 1.2;
     color: #ffffff;
 }
 .card {
-    border: 1px solid #E9C070;
+    border: 1px solid #888888;
 }
 .card:hover {
      border: 3px solid #757575;
@@ -160,30 +171,6 @@ ul.social-icons {
   color: white;
   text-decoration: none;
 }
-.fa-facebook {
-    padding:10px 14px;
-    -o-transition:.5s;
-    -ms-transition:.5s;
-    -moz-transition:.5s;
-    -webkit-transition:.5s;
-    transition: .5s;
-    background-color: var(--primary-color);
-}
-.fa-facebook:hover {
-    background-color: #3d5b99;
-}
-.fa-twitter {
-    padding:10px 12px;
-    -o-transition:.5s;
-    -ms-transition:.5s;
-    -moz-transition:.5s;
-    -webkit-transition:.5s;
-    transition: .5s;
-    background-color: var(--primary-color);
-}
-.fa-twitter:hover {
-    background-color: #00aced;
-}
 .fa-github {
     padding:10px 14px;
     -o-transition:.5s;
@@ -229,7 +216,7 @@ ul.social-icons {
     background-color: #ffffff;
     padding: 15px 27px;
     font-size: 20px;
-    color: rgb(247, 247, 247);
+    color: rgb(99, 99, 99);
     border: 3px solid #b1afaf;
     border-radius: 8px;
     width: 40%;
@@ -273,8 +260,8 @@ ul.social-icons {
     margin-left: 25%;
     overflow: hidden;
     transition: max-height 0.3s ease-out;
-    background-color: #e2e2e2;
-    color: #0049c7;
+    background-color: #f1f1f1;
+    color: #131313;
     text-align: left;
     display: none;
   }
